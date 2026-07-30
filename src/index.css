@@ -1,0 +1,30 @@
+@import "tailwindcss";
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Sora', sans-serif;
+}
+
+/* Outlined / stroke-only text — used for highlighted words in headings */
+.text-stroke {
+  -webkit-text-stroke: 2px #000000;
+  color: transparent;
+}
+
+.text-stroke-white {
+  -webkit-text-stroke: 2px #ffffff;
+  color: transparent;
+}
+
+/* Skills section — vertical cycling marquee (top → bottom) */
+@keyframes skillScrollDown {
+  from { transform: translateY(-50%); }
+  to   { transform: translateY(0%);   }
+}
