@@ -4,7 +4,7 @@ import { person } from '../../data/portfolio';
 export default function Contact() {
   return (
     <section id="contact" className="w-full px-5 lg:px-20 py-16 bg-white">
-      <div className="max-w-[1280px] mx-auto px-8 flex flex-col lg:flex-row items-stretch justify-between gap-12">
+      <div className="max-w-[1280px] mx-auto flex flex-col lg:flex-row items-stretch justify-between gap-12">
 
         {/* Left — Form */}
         <motion.div
@@ -83,7 +83,7 @@ export default function Contact() {
           className="flex flex-col gap-10 flex-1 justify-center py-5"
         >
           <div className="flex flex-col gap-5">
-            <div className="flex flex-col font-extrabold gap-3 text-[48px] leading-[56px] tracking-[-0.96px]">
+            <div className="flex flex-col font-extrabold gap-3 text-[32px] sm:text-[48px] leading-[40px] sm:leading-[56px] tracking-[-0.96px]">
               <div className="flex flex-wrap gap-4 items-start">
                 <span className="font-sora text-black">Let's</span>
                 <span className="font-sora text-stroke">talk</span>

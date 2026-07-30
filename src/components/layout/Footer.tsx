@@ -15,7 +15,7 @@ export default function Footer() {
 
       {/* Main footer body */}
       <div className="w-full px-5 lg:px-20 py-16">
-        <div className="max-w-[1280px] mx-auto px-8 grid grid-cols-1 md:grid-cols-3 gap-12 lg:gap-20">
+        <div className="max-w-[1280px] mx-auto grid grid-cols-1 md:grid-cols-3 gap-12 lg:gap-20">
 
           {/* Col 1 — Brand */}
           <div className="flex flex-col gap-5">
@@ -103,7 +103,7 @@ export default function Footer() {
 
       {/* Bottom bar */}
       <div className="w-full border-t border-zinc-800 px-5 lg:px-20 py-5">
-        <div className="max-w-[1280px] mx-auto px-8 flex flex-col sm:flex-row items-center justify-between gap-3">
+        <div className="max-w-[1280px] mx-auto flex flex-col sm:flex-row items-center justify-between gap-3">
           <p className="font-sora font-normal text-sm text-zinc-600">
             © {new Date().getFullYear()} {person.name}. All rights reserved.
           </p>
