@@ -123,9 +123,9 @@ export const projects: Project[] = [
     description:
       'My personal developer hub — the site you are on right now. Built from scratch with React, TypeScript, Vite, and Tailwind CSS v4. Fully responsive, animated with Framer Motion, and deployed on Vercel.',
     image: '',
-    previewUrl: 'https://api.microlink.io?url=https://shazily-tech.vercel.app&screenshot=true&embed=screenshot.url',
+    previewUrl: 'https://api.microlink.io?url=https://shazily.tech&screenshot=true&embed=screenshot.url',
     technologies: ['React', 'TypeScript', 'Vite'],
-    link: 'https://shazily-tech.vercel.app',
+    link: 'https://shazily.tech',
   },
   {
     id: '7',
